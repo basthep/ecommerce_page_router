@@ -1,6 +1,7 @@
 import { useSelector} from "react-redux";
 import { RootState } from "../store/store";
 import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 
 const CartPage = () => {
     

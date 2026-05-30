@@ -1,5 +1,6 @@
 import ProductCard from "../../components/ProductCard";
 import Footer from "../../components/Footer";
+import Navbar from "../../components/Navbar";
 
 interface Product {
   id: number;

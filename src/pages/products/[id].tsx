@@ -1,5 +1,6 @@
 import { GetServerSideProps } from "next";
 import Footer from "../../components/Footer";
+import Navbar from "../../components/Navbar";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../../store/cartSlice";
 
