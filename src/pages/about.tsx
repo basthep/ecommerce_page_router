@@ -3,6 +3,8 @@ import Footer from "../components/Footer"
 
 const AboutPage = () => {
   return (
+    <>
+    <Navbar />
     <main className="min-h-screen bg-gray-50 pt-28 px-6">
 
       <div className="max-w-7xl mx-auto">
@@ -160,6 +162,7 @@ const AboutPage = () => {
       <Footer />
 
     </main>
+    </>
   );
 };
 

@@ -27,6 +27,8 @@ const ProductDetailPage = ({
     const dispatch = useDispatch();
 
   return (
+    <>
+    <Navbar />
     <main className="min-h-screen bg-gray-50 pt-28 pb-10 px-6">
 
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
@@ -95,6 +97,7 @@ const ProductDetailPage = ({
       <Footer />
 
     </main>
+    </>
   );
 };
 

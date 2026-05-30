@@ -16,6 +16,7 @@ interface ProductsProps {
 const ProductsPage = ({ products }: ProductsProps) => {
   return (
     <>
+      <Navbar />
       <main className="min-h-screen bg-gray-50 px-6 pt-28 pb-10">
 
         <div className="max-w-7xl mx-auto mb-14">

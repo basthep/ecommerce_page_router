@@ -16,6 +16,7 @@ const CartPage = () => {
 
   return (
     <>
+      <Navbar />
       <main className="min-h-screen bg-gray-50 py-28 px-6">
 
         <div className="max-w-7xl mx-auto">

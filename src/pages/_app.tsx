@@ -14,8 +14,7 @@ export default function App({
 }: AppProps) {
 
   return (
-    <Provider store={store}>
-      <Navbar />
+    <Provider store={store}> 
       <Component {...pageProps} />
     </Provider>
   );

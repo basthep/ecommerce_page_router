@@ -2,6 +2,8 @@ import Footer from "../components/Footer"
 
 const ContactPage = () => {
   return (
+    <>
+    <Navbar />
     <main className="min-h-screen bg-gray-50 pt-28 px-6">
 
       <div className="max-w-6xl mx-auto">
@@ -169,6 +171,7 @@ const ContactPage = () => {
       <Footer />
 
     </main>
+    </>
   );
 };
 
